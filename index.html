@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoAção — Sustentabilidade</title>
+    <!-- CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Seu CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<script src="script.js"></script>
+<body>
+    <nav class="navbar bg-success" data-bs-theme="dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">EcoAção</a>
+
+        <div class="navbar-nav flex-row gap-3">
+            <a class="nav-link" href="#dicas">Dicas</a>
+            <a class="nav-link" href="#cadastro">Cadastro</a>
+        </div>
+    </div>
+</nav>
+
+<header class="bg-light py-5">
+    <div class="container text-center">
+        <h1 class="display-5 fw-bold text-success">
+            Pequenas atitudes, grandes mudanças
+        </h1>
+
+        <p class="lead my-4">
+            Descubra como economizar água, reciclar e consumir
+            de forma consciente no seu dia a dia.
+        </p>
+
+        <a href="#dicas" class="btn btn-success btn-lg">
+            Conhecer as dicas
+        </a>
+    </div>
+</header>
+
+<section id="dicas" class="container py-5">
+    <h2 class="text-center mb-4">Sustentabilidade na prática</h2>
+
+    <div class="row g-4">
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title h5 text-success">
+                        Economize água
+                    </h3>
+                    <p class="card-text">
+                        Feche a torneira ao escovar os dentes,
+                        reduza o tempo de banho e conserte vazamentos.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title h5 text-success">
+                        Separe seus resíduos
+                    </h3>
+                    <p class="card-text">
+                        Separe os materiais recicláveis dos resíduos
+                        orgânicos e confira as orientações da coleta local.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title h5 text-success">
+                        Consuma com consciência
+                    </h3>
+                    <p class="card-text">
+                        Compre apenas o necessário, reutilize embalagens
+                        e prefira produtos duráveis.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+    <section id="cadastro" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">Participe do EcoAção</h2>
+        <p class="text-center mb-4">
+            Dê o primeiro passo para uma rotina mais sustentável.
+        </p>
+
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+
+                <form onsubmit="event.preventDefault(); alert('Demonstração concluída! Nenhum dado foi enviado ou salvo.');">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="nome"
+                            name="nome"
+                            autocomplete="name"
+                            required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            required>
+                    </div>
+
+                    <p class="small text-body-secondary">
+                        Formulário demonstrativo: os dados não serão
+                        enviados nem armazenados.
+                    </p>
+
+                    <button type="submit" class="btn btn-success w-100">
+                        Cadastrar
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="bg-success text-white text-center py-4">
+    <div class="container">
+        <p class="fw-bold mb-1">EcoAção</p>
+        <p class="mb-1">
+            Pequenas atitudes por um futuro mais sustentável.
+        </p>
+        <p class="small mb-0">
+            Projeto acadêmico — ADS | Senac — 2026
+        </p>
+    </div>
+</footer>
+    <!-- JavaScript do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,6 @@
+/* Personaliza os cartões de dicas */
+.card {
+    border-radius: 12px;
+    border-color: #cce3d5;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
