@@ -53,10 +53,7 @@ O formulário é demonstrativo. Nenhum dado é enviado ou armazenado.
 ## Integrantes
 
 - Lucas Henrique
-
-
-## Site publicado
-
+  
 ## Site publicado
 
 [Acessar o EcoAção](https://lucashenrique1-coder.github.io/ecoacao/)
